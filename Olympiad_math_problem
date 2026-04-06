@@ -1,5 +1,7 @@
 ﻿#include<stdio.h>
 
+//计算奥数题：一瓶5块换1元
+
 main()
 {
 	int x = 0, y = 0, z = 0;       //定义消费x，瓶子值y，回收z
