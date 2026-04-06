@@ -1,0 +1,26 @@
+﻿#include<stdio.h>
+
+main()
+{
+	int x = 0, y = 0, z = 0;       //定义消费x，瓶子值y，回收z
+	int a;                        //定义购买数量a
+	scanf_s("%d", &a);
+	while (y < a)
+	{
+		y = y + 1;
+		printf("y=%d\n", y);
+		if (z < 5)
+		{
+			x = x + 5;
+			printf("x=%d\n", x);
+			z = z + 1;
+			printf("z=%d\n", z);
+		}
+		else
+		{
+			z = z - 5;
+			printf("z=%d\n", z);
+		}
+	}
+	printf("最终结果为%d\n", x);
+}
